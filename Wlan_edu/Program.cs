@@ -17,7 +17,7 @@ namespace Fuck
             Console.WriteLine("　　连　接：{0} on", programName);
             Console.WriteLine("　　下　线：{0} off", programName);
             Console.WriteLine("　　找自己：{0} me", programName);
-            Console.WriteLine("　　找作者：{0} you", programName);
+            Console.WriteLine("　　找作者：{0} about", programName);
         }
 
         static void Main(string[] args)
@@ -65,9 +65,9 @@ namespace Fuck
                         string password = account[1];
                         Console.WriteLine("\n手机号：{0}\n密　码：{1}", username, password);
                     }
-                    else if (action == "you")
+                    else if (action == "about")
                     {
-                        Console.WriteLine("\n邮 箱：lkxed@outlook.com\n公众号：lkx3ed");
+                        Console.WriteLine("\n邮　箱：lkxed@outlook.com\n公众号：lkx3ed");
                     }
                     else Help();
                 }
