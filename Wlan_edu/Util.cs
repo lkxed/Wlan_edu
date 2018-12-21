@@ -8,6 +8,8 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Web;
+using System.IO;
+using System.Diagnostics;
 
 namespace Fuck
 {
@@ -49,6 +51,13 @@ namespace Fuck
                 }
             }
             return "";
+        }
+
+        // 获取当前程序的名称
+        public static string GetProgramName()
+        {
+            string fullPath = Process.GetCurrentProcess().MainModule.FileName;
+            return Path.GetFileNameWithoutExtension(fullPath).ToLower();
         }
 
         // HTTP GET 实现
