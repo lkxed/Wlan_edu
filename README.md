@@ -1,7 +1,7 @@
 # Wlan_edu
 中国移动校园WLAN免浏览器登录工具
 ## 使用方法
-下载压缩包，解压至任意路径，进入文件夹Fuck/，在此处打开命令行，然后运行以下相应命令即可。
+下载[Fuck.zip](https://github.com/lkxed/Wlan_edu/releases/download/v1.0.0/Fuck.zip)，解压至任意路径，进入文件夹Fuck/，在此处打开命令行，然后运行以下相应命令即可。
 - 初始化：fuck init 手机号 固定密码
 - 连　接：fuck on
 - 下　线：fuck off
