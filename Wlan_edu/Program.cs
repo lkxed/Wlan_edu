@@ -11,12 +11,13 @@ namespace Fuck
     {
         static void Help()
         {
+            string programName = Util.GetProgramName();
             Console.WriteLine("\n使用方法\n");
-            Console.WriteLine("　　初始化：fuck init 手机号 固定密码");
-            Console.WriteLine("　　连　接：fuck on");
-            Console.WriteLine("　　下　线：fuck off");
-            Console.WriteLine("　　找自己：fuck me");
-            Console.WriteLine("　　找作者：fuck you");
+            Console.WriteLine("　　初始化：{0} init 手机号 固定密码", programName);
+            Console.WriteLine("　　连　接：{0} on", programName);
+            Console.WriteLine("　　下　线：{0} off", programName);
+            Console.WriteLine("　　找自己：{0} me", programName);
+            Console.WriteLine("　　找作者：{0} you", programName);
         }
 
         static void Main(string[] args)
