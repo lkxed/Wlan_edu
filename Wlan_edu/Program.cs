@@ -67,7 +67,7 @@ namespace Fuck
                     }
                     else if (action == "about")
                     {
-                        Console.WriteLine("\n邮　箱：lkxed@outlook.com\n公众号：lkx3ed");
+                        Console.WriteLine("\n邮　箱：lkxed@outlook.com\n");
                     }
                     else Help();
                 }
